@@ -47,7 +47,7 @@ function displayInfo(){
         <div class="real-information   show p-5" >
         <div class="show-width-item d-flex  show-book justify-content-between align-items-center ">
         <div class="items">  <h2 id="bookMarkName">${informationContainer[i].name}</h2></div>
-        <div class=" show-width">
+        <div class=" show-width ">
       
         <a  href="${informationContainer[i].url}" target="_blank"> <button class="btn btn-primary ali">Vist</button></a>
         <a href="#"><button class="btn btn-danger ms-2"  onclick="deleteBook(${i})">Delete</button></a>
